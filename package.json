@@ -1,0 +1,23 @@
+{
+  "name": "pct-permit-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Michael Lee <michael.y.lee.cs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cdk": "^2.50.0",
+    "aws-cdk-lib": "^2.50.0",
+    "aws-sdk": "^2.1266.0",
+    "cdk": "^2.50.0",
+    "constructs": "^10.1.162",
+    "puppeteer": "^19.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
