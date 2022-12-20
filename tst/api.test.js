@@ -1,4 +1,4 @@
-const api = require('./api');
+const api = require('../src/api');
 
 let calendar = [
     { start_date: '2023-03-01', num: '35'},
@@ -31,4 +31,4 @@ test('should return false to indicate no desired dates', () => {
     expect(api.containsDesiredDates({'2023-03-14': 1, '2023-05-16': 1})).toEqual(false);
 });
 
-// api.sendEmailWithAvailableDates(availableDates);
+api.sendEmailWithAvailableDates(availableDates);

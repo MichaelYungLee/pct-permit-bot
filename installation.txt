@@ -1,0 +1,8 @@
+1. Install git and clone repo
+	git clone https://github.com/MichaelYungLee/pct-permit-bot
+2. Install nvm based on https://github.com/nvm-sh/nvm#installing-and-updating
+3. nvm install 16
+4. cd pct-permit-bot && npm install
+5. Install puppeteer dependencies (./scripts/install-dependencies.sh)
+6. sudo timedatectl set-timezone "America/Los_Angeles"
+6. crontab -e with (* 9-14 * * 1-5 /home/ec2-user/.nvm/versions/node/v16.X.X/bin/node /home/ec2-user/pct-permit-bot/src/api.js)
